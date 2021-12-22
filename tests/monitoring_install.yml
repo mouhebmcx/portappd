@@ -1,0 +1,12 @@
+---
+#
+# file: tests/portappd_install.yml
+#
+
+- hosts: master
+  become: True
+  roles:
+    - portappd
+
+
+
